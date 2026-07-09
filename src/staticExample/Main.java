@@ -8,8 +8,6 @@ public class Main {
         Main obj = new Main();
         obj.fun2();
 
-
-
     }
 
     static void fun(){
