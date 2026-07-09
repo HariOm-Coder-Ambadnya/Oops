@@ -10,12 +10,14 @@ public class Main {
 //        Box box1 = new Box(7,2,1);
 //        Box box = new Box(box1);
 //        System.out.println(box.l + " "+ box.w + " " + box.h);
+//
+//        BoxWeight box3 = new BoxWeight();
+//        BoxWeight box4 = new BoxWeight();
+//
+//        System.out.println(box3.h + " " + box3.weight);
 
-        BoxWeight box3 = new BoxWeight();
-        BoxWeight box4 = new BoxWeight();
-
-        System.out.println(box3.h + " " + box3.weight);
-
+            Box obj = new BoxPrice(11,23,4,5,300);
+            System.out.println();
 
     }
 
