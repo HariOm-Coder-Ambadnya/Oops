@@ -40,11 +40,11 @@ public static void main(String[] args) {
     ObjectDemo ob1 = new ObjectDemo(4);
     ObjectDemo ob2 = new ObjectDemo(4);
 
-    if (ob1 == ob2){
+    if (ob1 == ob2){ //It checks the value
         System.out.println("equesls");
     }
-    if (ob1.equals(ob2)){
-        System.out.println("equesls");
+    if (ob1.equals(ob2)){ // After modifying the .equal above function we can checK nums
+        System.out.println("equesls2");
     }
 
 }
